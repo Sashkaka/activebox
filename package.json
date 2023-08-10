@@ -1,0 +1,20 @@
+{
+  "name": "class-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",  
+  "build": "parcel build ./src/index.html --public-url ./ --no-source-maps" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "sass": "^1.64.0"
+  }
+}
